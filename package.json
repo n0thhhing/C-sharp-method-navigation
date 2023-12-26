@@ -1,7 +1,7 @@
 {
-  "name": "nodejs",
+  "name": "c-method-navigation",
   "version": "1.0.0",
-  "description": "",
+  "description": "This module provides functions for extracting information from C# files, such as class names, method names, offsets, and fields. It uses regular expressions to parse the file content.",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -9,8 +9,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@types/node": "^18.0.6"
-  }
+  "license": "ISC"
 }

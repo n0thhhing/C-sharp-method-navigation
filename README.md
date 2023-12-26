@@ -1,14 +1,11 @@
- **Here's the README.md content, wrapped in backticks for easy copying:**
-
-```markdown
 # classInfo
-
-This module provides functions for extracting information from C# files, such as class names, method names, offsets, and fields. It uses regular expressions to parse the file content.
+This is just a class for getting class info, this was mainly needed by me for another project im working on so yeah
 
 ## Installation
 
 ```bash
-git clone
+git clone git@github.com:n0thhhing/C-sharp-method-navigation.git
+cd C-sharp-method-navigation
 ```
 
 ## Usage
@@ -16,7 +13,7 @@ git clone
 1. Import the module:
 
 ```javascript
-import { classInfo } from "classComponents.js";
+import { classInfo } from "./classComponents.js";
 ```
 
 2. Create a new instance of the `classInfo` class, providing the path to the C# file:
